@@ -20,4 +20,17 @@
             tools:layout_editor_absoluteX="164dp"
             android:id="@+id/switch1"/>
 
+    <ru.deinega.customswitch.SwitchWithoutDefaultSize
+            android:id="@+id/switchview"
+            android:layout_width="40dp"
+            android:background="#0f0"
+            app:padding_for_clickable="10"
+            app:color_on="#00f"
+            app:color_off="#0e0e0e"
+            app:checked="true"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/switch1"
+            app:layout_constraintRight_toRightOf="parent"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
